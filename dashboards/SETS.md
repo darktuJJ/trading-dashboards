@@ -1,7 +1,8 @@
 # SETS MACHINE
 
-> 截图均链接自原仓库，未复制到本仓库（SETS 的许可证在 GitHub 上识别为 NOASSERTION）。
-> Screenshots are linked from the original repository, not copied (GitHub reports SETS's license as NOASSERTION).
+> **截图来源 / Attribution**：本页截图和演示视频来自 [Shelpid/SETS](https://github.com/Shelpid/SETS)，版权归原作者所有。上游未声明许可证，此处仅作个人参考保存；如原作者要求，将立即删除。
+>
+> Screenshots and the demo video on this page are from [Shelpid/SETS](https://github.com/Shelpid/SETS); copyright belongs to the original author. No license is declared upstream; they are kept here for personal reference only and will be removed on request.
 
 ## 基本信息
 
