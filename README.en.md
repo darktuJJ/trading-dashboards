@@ -14,20 +14,20 @@ A collection of trading / strategy dashboard UIs I come across, kept as referenc
 
 - Each entry has its own Markdown file under [`dashboards/`](dashboards/), e.g. [`dashboards/SETS.md`](dashboards/SETS.md), covering source, tech stack, highlights, key files and caveats.
 - The index table below has one row per entry, linking to its detail file.
-- Screenshots are **linked from the original repository** rather than copied here, to avoid licensing issues.
+- Screenshots live under [`dashboards/assets/`](dashboards/assets/), one folder per entry, with source and copyright noted in the detail file.
 
 ## Index
 
 | Name | Link | Tech stack | Highlights / what to learn from | Screenshots | Notes |
 | --- | --- | --- | --- | --- | --- |
-| [SETS MACHINE](dashboards/SETS.md) | [darktuJJ/SETS](https://github.com/darktuJJ/SETS) (upstream [Shelpid/SETS](https://github.com/Shelpid/SETS)) | Plain HTML / CSS / vanilla JavaScript, drawn on `<canvas>` ([`dist/ui/draw.js`](https://github.com/darktuJJ/SETS/blob/main/dist/ui/draw.js)) | Live animation of a genetic-algorithm evolution (gene pool, lineage, fitness history); equity curve with trade markers; no framework, no build step | [Main view](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/hero.png) · [Gene pool GIF](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/genepool.gif) | A demo, not a trading system: paper trades on historical BTC data only |
+| [SETS MACHINE](dashboards/SETS.md) | [Shelpid/SETS](https://github.com/Shelpid/SETS) | Plain HTML / CSS / vanilla JavaScript, drawn on `<canvas>` ([`dist/ui/draw.js`](https://github.com/Shelpid/SETS/blob/main/dist/ui/draw.js)) | Live animation of a genetic-algorithm evolution (gene pool, lineage, fitness history); equity curve with trade markers; no framework, no build step | [Main view](dashboards/assets/SETS/hero.png) · [Gene pool GIF](dashboards/assets/SETS/genepool.gif) · [Demo video](dashboards/assets/SETS/sets-machine-promo.mp4) | A demo, not a trading system: paper trades on historical BTC data only |
 
 ## Adding an entry
 
 1. Create `dashboards/<name>.md`, following the structure of [`dashboards/SETS.md`](dashboards/SETS.md).
 2. Add a row to the index table above.
-3. Link screenshots from the original repository; only copy images when the license clearly allows it.
+3. Put screenshots in `dashboards/assets/<name>/` with attribution; remove them promptly if the original author asks.
 
 ## License
 
-This repository's own content is licensed under the [MIT License](LICENSE). Referenced projects, screenshots and code belong to their original authors and remain under their own licenses.
+This repository's own content is licensed under the [MIT License](LICENSE). Referenced projects, screenshots, videos and code belong to their original authors and are not covered by the MIT License.

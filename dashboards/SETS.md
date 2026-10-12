@@ -7,8 +7,7 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 仓库 | [darktuJJ/SETS](https://github.com/darktuJJ/SETS)（fork） |
-| 上游 | [Shelpid/SETS](https://github.com/Shelpid/SETS) |
+| 仓库 | [Shelpid/SETS](https://github.com/Shelpid/SETS) |
 | 技术栈 | 纯 HTML / CSS / 原生 JavaScript（ES 模块），`<canvas>` 绘制；无框架、无构建、无 npm 依赖 |
 | 运行方式 | `python -m http.server 8000 --directory dist`，浏览器打开 http://localhost:8000 |
 | 数据 | 内置 2,399 根 BTCUSDT 1 小时 K 线（Binance 公开接口） |
@@ -16,13 +15,15 @@
 
 ## 截图
 
-![SETS MACHINE 主界面](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/hero.png)
+![SETS MACHINE 主界面](assets/SETS/hero.png)
 
-![基因池动画](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/genepool.gif)
+![基因池动画](assets/SETS/genepool.gif)
 
-![进化循环与适应度](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/evolution.gif)
+![进化循环与适应度](assets/SETS/evolution.gif)
 
-更多：[选择漏斗与 Kelly 仓位](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/selection.png) · [模拟网格交易](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/trading.png) · [手机布局](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/mobile.png) · [整页截图](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/dashboard.png)
+演示视频（约 25 秒，4.2 MB）：[sets-machine-promo.mp4](assets/SETS/sets-machine-promo.mp4)
+
+更多：[选择漏斗与 Kelly 仓位](assets/SETS/selection.png) · [模拟网格交易](assets/SETS/trading.png) · [手机布局](assets/SETS/mobile.png) · [整页截图](assets/SETS/dashboard.png)
 
 ## 可参考之处
 
@@ -38,11 +39,11 @@
 
 | 文件 | 作用 |
 | --- | --- |
-| [`dist/ui/draw.js`](https://github.com/darktuJJ/SETS/blob/main/dist/ui/draw.js) | Canvas 绘图：logo、圆环、适应度曲线、基因池、Kelly 图、K 线图 |
-| [`dist/app.js`](https://github.com/darktuJJ/SETS/blob/main/dist/app.js) | 控制器：代际时间线、模拟盘、界面状态 |
-| [`dist/style.css`](https://github.com/darktuJJ/SETS/blob/main/dist/style.css) | 蓝白配色的响应式界面 |
-| [`dist/engine/evolution.js`](https://github.com/darktuJJ/SETS/blob/main/dist/engine/evolution.js) | 遗传算法：基因组、交叉、变异、物种配额、样本外关卡 |
-| [`dist/engine/bot.js`](https://github.com/darktuJJ/SETS/blob/main/dist/engine/bot.js) | 网格 DCA 机器人：信号、网格成交、止盈止损、手续费、指标 |
+| [`dist/ui/draw.js`](https://github.com/Shelpid/SETS/blob/main/dist/ui/draw.js) | Canvas 绘图：logo、圆环、适应度曲线、基因池、Kelly 图、K 线图 |
+| [`dist/app.js`](https://github.com/Shelpid/SETS/blob/main/dist/app.js) | 控制器：代际时间线、模拟盘、界面状态 |
+| [`dist/style.css`](https://github.com/Shelpid/SETS/blob/main/dist/style.css) | 蓝白配色的响应式界面 |
+| [`dist/engine/evolution.js`](https://github.com/Shelpid/SETS/blob/main/dist/engine/evolution.js) | 遗传算法：基因组、交叉、变异、物种配额、样本外关卡 |
+| [`dist/engine/bot.js`](https://github.com/Shelpid/SETS/blob/main/dist/engine/bot.js) | 网格 DCA 机器人：信号、网格成交、止盈止损、手续费、指标 |
 
 ## 注意事项
 

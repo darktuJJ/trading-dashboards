@@ -14,20 +14,20 @@
 
 - 每个条目在 [`dashboards/`](dashboards/) 下有一个独立的 Markdown 文件，例如 [`dashboards/SETS.md`](dashboards/SETS.md)，记录来源、技术栈、亮点、关键文件和注意事项。
 - 下面的索引表每个条目一行，链接到对应的详情文件。
-- 截图优先**链接到原仓库**的图片，不直接复制进本仓库，以免产生许可证问题。
+- 截图放在 [`dashboards/assets/`](dashboards/assets/) 下，按条目分目录，并在详情文件中注明来源和版权。
 
 ## 索引
 
 | 名称 | 链接 | 技术栈 | 亮点 / 可参考之处 | 截图 | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| [SETS MACHINE](dashboards/SETS.md) | [darktuJJ/SETS](https://github.com/darktuJJ/SETS)（上游 [Shelpid/SETS](https://github.com/Shelpid/SETS)） | 纯 HTML / CSS / 原生 JavaScript，`<canvas>` 绘制（[`dist/ui/draw.js`](https://github.com/darktuJJ/SETS/blob/main/dist/ui/draw.js)） | 遗传算法进化过程的实时动画（基因池、谱系、适应度曲线）；权益曲线和买卖点标记；无框架、无构建 | [主界面](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/hero.png) · [基因池 GIF](https://raw.githubusercontent.com/darktuJJ/SETS/main/docs/images/genepool.gif) | 演示项目，不是交易系统：只用历史 BTC 数据做模拟盘 |
+| [SETS MACHINE](dashboards/SETS.md) | [Shelpid/SETS](https://github.com/Shelpid/SETS) | 纯 HTML / CSS / 原生 JavaScript，`<canvas>` 绘制（[`dist/ui/draw.js`](https://github.com/Shelpid/SETS/blob/main/dist/ui/draw.js)） | 遗传算法进化过程的实时动画（基因池、谱系、适应度曲线）；权益曲线和买卖点标记；无框架、无构建 | [主界面](dashboards/assets/SETS/hero.png) · [基因池 GIF](dashboards/assets/SETS/genepool.gif) · [演示视频](dashboards/assets/SETS/sets-machine-promo.mp4) | 演示项目，不是交易系统：只用历史 BTC 数据做模拟盘 |
 
 ## 添加新条目
 
 1. 在 `dashboards/` 下新建 `<名称>.md`，可参考 [`dashboards/SETS.md`](dashboards/SETS.md) 的结构。
 2. 在上面的索引表中加一行。
-3. 截图用原仓库的链接；只有确认许可证允许时才复制图片。
+3. 截图放进 `dashboards/assets/<名称>/`，并注明来源；原作者要求时立即删除。
 
 ## 许可证
 
-本仓库自己的内容采用 [MIT 许可证](LICENSE)。各条目引用的项目、截图和代码归其原作者所有，适用其各自的许可证。
+本仓库自己的内容采用 [MIT 许可证](LICENSE)。各条目引用的项目、截图、视频和代码归其原作者所有，不在 MIT 许可范围内。
